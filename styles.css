@@ -1,29 +1,3 @@
 /* 
-HSL
-HEX Values #RRGGBB
-123456789 A(10) B(11) C(12) D(13) E(14) F(15)
-
-#FF0000 - Red
-#00FF00 - Green
-#0000FF - Blue
+External Resource  - use coolors.co
 */
-
-#first {
-  color: #ff0000;
-  background-color: #000;
-}
-
-#second {
-  color: #fff;
-  background-color: #00ff00;
-}
-
-#third {
-  color: #0000ff;
-  background-color: #f15025;
-}
-
-#fourth {
-  color: #f234ad;
-  background-color: #222;
-}
