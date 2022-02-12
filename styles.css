@@ -1,26 +1,29 @@
-/* RGBA A-Opacity/Transparency 0-1 */
+/* 
+HSL
+HEX Values #RRGGBB
+123456789 A(10) B(11) C(12) D(13) E(14) F(15)
+
+#FF0000 - Red
+#00FF00 - Green
+#0000FF - Blue
+*/
 
 #first {
-  color: rgba(255, 0, 0, 1);
-  background-color: rgba(0, 0, 0, 0);
+  color: #ff0000;
+  background-color: #000;
 }
 
 #second {
-  color: rgba(255, 0, 0, 0.75);
-  background-color: rgba(0, 0, 0, 0.25);
+  color: #fff;
+  background-color: #00ff00;
 }
 
 #third {
-  color: rgba(255, 0, 0, 0.25);
-  background-color: rgba(0, 0, 0, 0.75);
+  color: #0000ff;
+  background-color: #f15025;
 }
 
 #fourth {
-  /* color: rgba(255, 0, 0, 0); */
-  color: rgba(0, 255, 0, 0.67);
-  background-color: rgba(0, 0, 0, 1);
-}
-
-body {
-  background-color: rgb(21, 90, 90);
+  color: #f234ad;
+  background-color: #222;
 }
