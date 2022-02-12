@@ -1,11 +1,12 @@
-/* Color Properties */
-/* Color Background */
+/* color names > 140 */
+/* w3 schools will be the best source for CSS colors */
 
 #first {
-  color: white;
-  background-color: black;
+  color: plum;
+  background-color: aquamarine;
 }
+
 #second {
-  color: red;
-  background-color: yellow;
+  color: antiquewhite;
+  background-color: black;
 }
