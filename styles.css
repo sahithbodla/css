@@ -1,3 +1,16 @@
 /* 
 External Resource  - use coolors.co
 */
+
+body {
+  /* background-color: pink;
+  background-image: url("./build_smallsize.jpg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-attachment: fixed; */
+  background: pink url("./build_smallsize.jpg") no-repeat fixed top right;
+}
+
+.container {
+  color: red;
+}
