@@ -2,14 +2,14 @@
 
 .container1 {
   background-color: magenta;
-  width: 400px;
-  height: 400px;
+  width: 100px;
+  height: 100px;
 }
 
 .container2 {
   background-color: coral;
   width: 50%;
   height: 50%;
-  max-width: 100px;
-  max-height: 100px;
+  min-width: 100px;
+  min-height: 100px;
 }
