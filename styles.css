@@ -1,8 +1,34 @@
-/* Font Family */
-/* @import url("https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap"); */
-.container1 p {
-  font-family: sans-serif;
+/* Links */
+
+.facebook:link {
+  color: orange;
+  text-decoration: none;
 }
-.container2 p {
-  font-family: "Yuji Syuku", sans-serif;
+.facebook:visited {
+  color: brown;
+}
+.facebook:hover {
+  color: black;
+  text-decoration: underline;
+}
+.facebook:active {
+  color: hotpink;
+}
+.youtube:link {
+  color: orange;
+}
+.youtube:visited {
+  color: brown;
+}
+.youtube:hover {
+  color: black;
+}
+.youtube:active {
+  color: hotpink;
+}
+.twitter:visited {
+  color: brown;
+}
+.twitter:hover {
+  color: green;
 }
