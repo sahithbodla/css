@@ -1,34 +1,15 @@
-/* Links */
+/* Link as a button */
 
-.facebook:link {
-  color: orange;
+.btn {
   text-decoration: none;
-}
-.facebook:visited {
-  color: brown;
-}
-.facebook:hover {
   color: black;
-  text-decoration: underline;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  background-color: rgba(54, 50, 50, 0.5);
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
 }
-.facebook:active {
-  color: hotpink;
-}
-.youtube:link {
-  color: orange;
-}
-.youtube:visited {
-  color: brown;
-}
-.youtube:hover {
-  color: black;
-}
-.youtube:active {
-  color: hotpink;
-}
-.twitter:visited {
-  color: brown;
-}
-.twitter:hover {
-  color: green;
+
+button {
+  cursor: wait;
 }
