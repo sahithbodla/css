@@ -1,13 +1,18 @@
-/* Max-width */
+/* Position */
 
 .container {
-  width: 200px;
+  width: 400px;
   height: 400px;
   background-color: red;
+  opacity: 0.3;
+  position: sticky;
 }
 .container2 {
+  display: none;
   width: 50%;
   height: 50%;
   background-color: green;
-  max-width: 150px;
+  position: relative;
+  left: 25%;
+  top: 25%;
 }
