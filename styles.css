@@ -1,20 +1,13 @@
-/* display */
+/* Max-width */
 
-.div-container {
-  background-color: #f23de8;
-  padding: 2rem;
-  margin: 2rem;
+.container {
+  width: 200px;
+  height: 400px;
+  background-color: red;
 }
-
-.span-container {
-  display: inline-block;
-  background-color: #f23de8;
-  padding: 2rem;
-  margin: 2rem;
-}
-
-.hidden {
-  background-color: #f23de8;
-  /* visibility: hidden; */
-  display: none;
+.container2 {
+  width: 50%;
+  height: 50%;
+  background-color: green;
+  max-width: 150px;
 }
