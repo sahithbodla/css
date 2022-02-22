@@ -1,5 +1,20 @@
-/* lists */
+/* display */
 
-ol.lsti {
-  list-style-type: armenian;
+.div-container {
+  background-color: #f23de8;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.span-container {
+  display: inline-block;
+  background-color: #f23de8;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.hidden {
+  background-color: #f23de8;
+  /* visibility: hidden; */
+  display: none;
 }
