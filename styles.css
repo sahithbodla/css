@@ -1,23 +1,14 @@
-/* z - index */
+/* Over-flow */
 
 .container1 {
   width: 500px;
-  height: 500px;
-  background-color: red;
-  position: relative;
-}
-.container2 {
-  width: 50%;
-  height: 50%;
-  background-color: blue;
-  position: absolute;
-  z-index: 1;
-}
-.container3 {
-  width: 50%;
-  height: 50%;
-  background-color: green;
-  position: absolute;
-  left: 0;
-  top: 0;
+  height: 250px;
+  background-color: rgba(255, 0, 0, 0.589);
+  /* Below is the default one */
+  /* overflow: visible; */
+  /* For below one extra content will be chopped off */
+  /* overflow: hidden; */
+  /* It will create a scroll bar to see the overflown content */
+  /* overflow: scroll; */
+  overflow: auto;
 }
