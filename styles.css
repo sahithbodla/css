@@ -1,22 +1,23 @@
-/* Position */
+/* z - index */
 
-.container {
+.container1 {
+  width: 500px;
+  height: 500px;
+  background-color: red;
   position: relative;
-  width: 400px;
-  height: 400px;
 }
-
-.center {
+.container2 {
+  width: 50%;
+  height: 50%;
+  background-color: blue;
   position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  font-size: 18px;
+  z-index: 1;
 }
-
-img {
-  width: 100%;
-  height: auto;
-  opacity: 0.3;
-  object-fit: cover;
+.container3 {
+  width: 50%;
+  height: 50%;
+  background-color: green;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
