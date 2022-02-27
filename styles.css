@@ -1,9 +1,10 @@
-/* pusedo classes */
+/* opacity 0-1*/
 
-p {
-  display: none;
+img {
+  opacity: 0.5;
 }
 
-div:hover p {
-  display: block;
+img:hover {
+  opacity: 1;
+  cursor: pointer;
 }
