@@ -1,14 +1,9 @@
-/* Over-flow */
+/* pusedo classes */
 
-.container1 {
-  width: 500px;
-  height: 250px;
-  background-color: rgba(255, 0, 0, 0.589);
-  /* Below is the default one */
-  /* overflow: visible; */
-  /* For below one extra content will be chopped off */
-  /* overflow: hidden; */
-  /* It will create a scroll bar to see the overflown content */
-  /* overflow: scroll; */
-  overflow: auto;
+p {
+  display: none;
+}
+
+div:hover p {
+  display: block;
 }
