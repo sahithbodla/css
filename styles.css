@@ -1,27 +1,11 @@
 /* Media Queries */
 
-h1 {
-  font-size: 1.2rem;
-}
-
-@media screen and (min-width: 568px) {
-  h1 {
-    font-size: 1.5rem;
-  }
+.hidden {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
-  h1 {
-    font-size: 1.8rem;
-  }
-}
-@media screen and (min-width: 968px) {
-  h1 {
-    font-size: 2rem;
-  }
-}
-@media screen and (min-width: 1176px) {
-  h1 {
-    font-size: 3rem;
+  .hidden {
+    display: inline;
   }
 }
