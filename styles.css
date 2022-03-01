@@ -1,28 +1,9 @@
-/* Navigation*/
+/* Dropdown */
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-/* .nav li {
-  display: inline;
-} */
-
-.nav li {
-  float: left;
-  border-left: 1px solid green;
+.dropdown .content {
+  display: none;
 }
 
-.nav li:first-child {
-  border-left: none;
-}
-
-.nav li a {
+.dropdown:hover .content {
   display: block;
-  background-color: #dddddd;
-  padding: 1rem 1rem;
-  text-decoration: none;
-  color: green;
 }
